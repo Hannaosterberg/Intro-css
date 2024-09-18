@@ -1,0 +1,34 @@
+body {
+    background-color: #ff999b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading{
+    color:beige
+}
+p {
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    color:blanchedalmond;
+
+}
+ul li {
+    font-size: 20px;
+    color:blanchedalmond;
+}
+ol li {
+    font-size: 20px;
+    color:blanchedalmond;
+}
+
+.box {
+    background-color: bisque;
+    color:grey;
+    width: 50% ;
+    font: oblique normal bold 30px grey;
+    text-align: center;
+    border: 5px solid grey;
+    padding: 10px;
+    margin: 30px;
+}
