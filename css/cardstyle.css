@@ -1,0 +1,54 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    font-size: 16px;
+    line-height: 1,5;
+    background: rgb(238, 207, 192);
+}
+.site-container {
+    display:inline-flex;
+    float: inline-start;
+}
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(autofill, minmax(265px, 1fr));
+    gap: 2rem;
+}
+.article-image {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.article-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+.article-card {
+    background: beige;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.article-content {
+    padding: 2rem;
+}
+.article-content .card-category {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    color:rgb(97, 97, 135);
+}
+.article-content .card-title {
+    font-size: 30px;
+    margin: 2rem 0;
+    color:rgb(82, 82, 122)
+}
+.article-content .card-content {
+    font-size: 18px;
+    line-height: 1.5rem;
+    color:rgb(149, 149, 202);
+    margin: 0;
+}
+
+
