@@ -1,0 +1,63 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(247, 194, 203);
+}
+
+.site-container {
+    margin:0;
+    padding: 0;
+}
+
+.card-container {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    display: flex;
+}
+
+.card-image {
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+
+.card-image img {
+    max-width: 400px;
+    height:auto;
+    border-radius: 20px 20px 0 0 ;
+}
+.card-1 {
+    background: beige;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    flex: 1;
+}
+.card-2 {
+    background: beige;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    flex: 1;
+}
+.card-3 {
+    background: beige;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    flex: 1; 
+}
+.card-content {
+    padding: 2rem;
+}
+.card-content .card-category {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: rgb(91, 91, 146);
+}
+.card-content .card-title {
+    font-size: 25px;
+    color:rgb(73, 73, 130);
+}
+.card-content .card-text {
+    color:rgb(132, 132, 207);
+}
