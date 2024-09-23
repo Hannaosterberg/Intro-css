@@ -6,7 +6,8 @@ body {
     background: rgb(238, 207, 192);
 }
 .site-container {
-    
+   margin: 0;
+   padding: 0; 
 }
 .article-container {
     margin-bottom: 10px;
