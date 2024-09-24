@@ -30,7 +30,10 @@ p {
     color: grey;
 }
 footer a {
-    color:black;
+    color: gray;
     font-size: 70px;
     text-decoration: none;
+}
+.active:hover {
+    color: black;
 }
