@@ -9,16 +9,18 @@ body {
     background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     ;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "roboto", sans-serif;
 }
 
 .heading{
     background: linear-gradient(to left, pink, purple);
+    font-size: 36px;
+    font-weight: 600;
 }
 p {
     font-size: 20px;
-    font-style: oblique;
-    font-weight: bold;
+    font-style:italic;
+    font-weight: 500;
     color:blanchedalmond;
 
 }
