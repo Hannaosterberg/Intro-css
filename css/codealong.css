@@ -1,0 +1,77 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-primary: #43C6AC;
+    --color-secondary: #43b09b;
+    --color-accent: #feff00;
+    --text-color-primary: #000;
+    --text-color-secondary: #fff;
+}
+
+body {
+    font-family: "roboto", sans-serif;
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.pricing-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.plan {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.plan h2 {
+    text-transform: uppercase;
+    color: var(--text-color-secondary);
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+ul.features {
+    list-style: none;
+
+}
+.ul.features li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+ul.features li:last-child {
+    border-bottom: 0;
+}
+
+.price {
+    font-size: 36px;
+    font-family: serif;
+    margin-bottom: 20px;
+}
+
+.plan .cta {
+    text-decoration: none;
+    background-color: var(--color-accent);
+    color: var(--text-color-primary);
+    letter-spacing: 2px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 600;
+
+}
