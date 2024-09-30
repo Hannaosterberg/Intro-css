@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(247, 194, 203);
@@ -27,16 +31,19 @@ body {
     border-radius: 20px 20px 0 0 ;
 }
 .card-1 {
+    display: inline-block;
     background: beige;
     border-radius: 20px;
     margin-bottom: 20px;
 }
 .card-2 {
+    display: inline-block;
     background: beige;
     border-radius: 20px;
     margin-bottom: 20px;
 }
 .card-3 {
+    display: inline-block;
     background: beige;
     border-radius: 20px;
     margin-bottom: 20px;
